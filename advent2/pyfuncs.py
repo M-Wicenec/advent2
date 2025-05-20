@@ -1,7 +1,7 @@
 """
-project_name pyfuncs module.
+advent2 pyfuncs module.
 
-This is the starting module of project_name containing DALiuGE PyFuncs.
+This is the starting module of advent2 containing DALiuGE PyFuncs.
 Here you can start putting the functions you are building for a DALiuGE Palette.
 
 Typically a PyFunc project will contain multiple PyFuncs and will

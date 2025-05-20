@@ -1,13 +1,13 @@
 # __main__ is not required for DALiuGE components.
 import argparse  # pragma: no cover
 
-from project_name.apps import MyAppDROP  # pragma: no cover
+from advent2.apps import MyAppDROP  # pragma: no cover
 
 
 def main() -> None:  # pragma: no cover
     """
     The main function executes on commands:
-    `python -m project_name` and `$ project_name `.
+    `python -m advent2` and `$ advent2 `.
 
     This is your program's entry point.
 
@@ -21,15 +21,15 @@ def main() -> None:  # pragma: no cover
         * Run an application (Flask, FastAPI, Django, etc.)
     """
     parser = argparse.ArgumentParser(
-        description="project_name.",
-        epilog="Enjoy the project_name functionality!",
+        description="advent2.",
+        epilog="Enjoy the advent2 functionality!",
     )
     # This is required positional argument
     parser.add_argument(
         "name",
         type=str,
         help="The username",
-        default="author_name",
+        default="M-Wicenec",
     )
     # This is optional named argument
     parser.add_argument(
